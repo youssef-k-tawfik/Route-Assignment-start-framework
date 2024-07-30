@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import StarLine from "../StarLine/StarLine";
 
 export default function Contact() {
+  useEffect(() => {
+    document.title = "Contact";
+  }, []);
+
   const [inputs, setInputs] = useState([
     { type: "text", label: "userName :" },
     { type: "number", label: "userAge :" },

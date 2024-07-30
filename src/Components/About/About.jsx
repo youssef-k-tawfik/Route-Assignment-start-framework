@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import StarLine from "../StarLine/StarLine";
 
 export default function About() {
+  useEffect(() => {
+    document.title = "About";
+  }, []);
+
   return (
     <section id="about" className="d-flex align-items-center">
       <div className="container text-center">

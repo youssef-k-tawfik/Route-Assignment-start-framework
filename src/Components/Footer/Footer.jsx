@@ -5,18 +5,18 @@ export default function Footer() {
     <>
       <footer className="text-center p-5">
         <div className="container">
-          <div className="row">
-            <div className="col-4">
+          <div className="row g-4">
+            <div className="col-sm-4">
               <div className="inner">
                 <h2>Location</h2>
                 <p>2215 John Daniel Drive</p>
                 <p>Clark, MO 65243</p>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-sm-4">
               <div className="inner">
                 <h2>AROUND THE WEB</h2>
-                <div className="social d-flex gap-3 justify-content-center">
+                <div className="social d-flex gap-2 justify-content-center flex-nowrap">
                   <div className="social-icon">
                     <FaFacebook />
                   </div>
@@ -32,7 +32,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-sm-4">
               <div className="inner">
                 <h2>ABOUT FREELANCER</h2>
                 <p>

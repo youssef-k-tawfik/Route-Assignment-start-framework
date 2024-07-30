@@ -43,6 +43,7 @@ main {
 section {
   padding-top: 20px;
   padding-bottom: 20px;
+  min-height: calc(100vh - var(--navbar-height));
 }
 #home {
   background-color: var(--primary-clr);
@@ -70,7 +71,6 @@ footer + p {
 #about {
   background-color: #1abc9c;
   color: white;
-  min-height: calc(100vh - var(--navbar-height));
 }
 
 #portfolio {
